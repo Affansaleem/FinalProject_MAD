@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".aboutUs">
+
+    <ImageView
+        android:id="@+id/backArr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/backarrow"/>
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logoimageview"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Poladoc"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Version 1.0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="About Us"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/poladoc_is_the_1_digital_healthcare_platform_in_pakistan_poladoc_helps_you_find_and_instantly_book_appointments_or_online_video_consultations_with_the_best_doctors_in_pakistan_our_transparent_and_intuitive_platform_helps_you_choose_the_right_doctors_by_letting_you_check_up_on_patient_reviews_consultation_fees_satisfaction_scores_and_wait_times"
+        android:textSize="16sp" />
+
+</LinearLayout>

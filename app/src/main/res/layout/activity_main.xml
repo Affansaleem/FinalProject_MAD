@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main content of the screen -->
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <!-- TabLayout at the bottom -->
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:tabGravity="fill"
+            app:tabMode="fixed">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabNav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabAppoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabRec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Records" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

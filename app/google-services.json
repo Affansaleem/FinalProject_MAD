@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986107009933",
+    "project_id": "fianlproject-2f9cb",
+    "storage_bucket": "fianlproject-2f9cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986107009933:android:c974046e0379e385197bc4",
+        "android_client_info": {
+          "package_name": "com.example.fianlproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986107009933-t1nu26p7gtpgn05l927i29fmlntbm4tk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjGnZmNiTmnAtfRli0Jt6Uj8UOpDy4CE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986107009933-82701ut2b8eresue3o4ovofvn4rm01ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@android:color/white"
+    tools:context=".contactUs">
+
+    <ImageView
+        android:id="@+id/backGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/backarrow"/>
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logoimageview"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Contact Us"
+        android:textSize="24sp"
+        android:textColor="@color/design_default_color_error"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Lahore, Pakistan"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Phone: 03057157979"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_shadow_start_color" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Email: abubakar.789bajwa@gmail.com"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

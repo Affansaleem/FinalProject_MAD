@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FianlProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click_me">Click Me</string>
+    <string name="poladoc">PolaDoc</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="poladoc_is_the_1_digital_healthcare_platform_in_pakistan_poladoc_helps_you_find_and_instantly_book_appointments_or_online_video_consultations_with_the_best_doctors_in_pakistan_our_transparent_and_intuitive_platform_helps_you_choose_the_right_doctors_by_letting_you_check_up_on_patient_reviews_consultation_fees_satisfaction_scores_and_wait_times">Poladoc is the #1 digital healthcare platform in Pakistan. Poladoc helps you find and instantly book appointments or online video consultations with the best doctors in Pakistan. Our transparent and intuitive platform helps you choose the right doctors by letting you check up on patient reviews, consultation fees, satisfaction scores, and wait times.</string>
+</resources>
